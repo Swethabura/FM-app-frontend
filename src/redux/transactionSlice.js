@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/transactions";
+const BASE_URL = "https://fm-app-backend.onrender.com/api/transactions";
 
 // Async Thunks
 export const fetchTransactions = createAsyncThunk(
