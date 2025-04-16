@@ -1,0 +1,110 @@
+/* Base Styling */
+.transaction-card {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.transaction-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 0;
+}
+
+.transaction-amount {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.transaction-desc {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Mobile (320px - 480px) */
+@media (max-width: 480px) {
+  .transaction-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .transaction-item {
+    font-size: 0.9rem;
+  }
+
+  .transaction-amount {
+    font-size: 1rem;
+  }
+
+  .transaction-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small Tablets / Large Mobiles (481px - 768px) */
+@media (max-width: 768px) {
+  .transaction-card {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .transaction-item {
+    font-size: 1rem;
+  }
+
+  .transaction-amount {
+    font-size: 1.1rem;
+  }
+
+  .transaction-desc {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablets and Small Desktops (769px - 1024px) */
+@media (max-width: 1024px) {
+  .transaction-card {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .transaction-item {
+    font-size: 1.05rem;
+  }
+
+  .transaction-amount {
+    font-size: 1.2rem;
+  }
+
+  .transaction-desc {
+    font-size: 1rem;
+  }
+}
+
+/* Desktops (1025px - 1200px) */
+@media (max-width: 1200px) {
+  .transaction-card {
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  .transaction-item {
+    font-size: 1.1rem;
+  }
+
+  .transaction-amount {
+    font-size: 1.25rem;
+  }
+
+  .transaction-desc {
+    font-size: 1.1rem;
+  }
+}
+
+.transaction-card {
+  max-height: 80vh;
+  overflow-y: auto;
+}

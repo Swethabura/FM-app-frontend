@@ -1,0 +1,79 @@
+/* Base Styles */
+.transaction-form-card {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.transaction-form-item {
+  margin-bottom: 15px;
+}
+
+.transaction-form-button {
+  width: 100%;
+}
+
+/* Mobile (320px - 480px) */
+@media (max-width: 480px) {
+  .transaction-form-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .transaction-form-item {
+    margin-bottom: 10px;
+  }
+
+  .transaction-form-button {
+    font-size: 1rem;
+  }
+}
+
+/* Small Tablets / Large Mobiles (481px - 768px) */
+@media (max-width: 768px) {
+  .transaction-form-card {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .transaction-form-item {
+    margin-bottom: 12px;
+  }
+
+  .transaction-form-button {
+    font-size: 1.1rem;
+  }
+}
+
+/* Tablets and Small Desktops (769px - 1024px) */
+@media (max-width: 1024px) {
+  .transaction-form-card {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .transaction-form-item {
+    margin-bottom: 15px;
+  }
+
+  .transaction-form-button {
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktops (1025px - 1200px) */
+@media (max-width: 1200px) {
+  .transaction-form-card {
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  .transaction-form-item {
+    margin-bottom: 20px;
+  }
+
+  .transaction-form-button {
+    font-size: 1.3rem;
+  }
+}
